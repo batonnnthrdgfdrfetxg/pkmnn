@@ -8,16 +8,16 @@ public class PkmnApplication {
 
     public static void main(String[] args) {
         CardImport importer = new CardImport();
-        System.out.println("Beartic:");
+        System.out.println("Banette:");
         Card mainCard = loadCard(importer, "src/main/resources/my_card.txt");
         String firstCardFilePath = readLinkFromMainCard("src/main/resources/my_card.txt");
         if (firstCardFilePath != null) {
-            System.out.println("Cubchoo:");
+            System.out.println("Shuppet:");
             loadCard(importer, firstCardFilePath);
         } else {
             System.out.println("Ссылка на первый файл не найдена.");
         }
-        System.out.println("\nИмпортируемая карта:");
+        System.out.println("\nимпорт карта:");
         loadCardFromBinary("src/main/resources/Glastrier.crd");
     }
     private static Card loadCard(CardImport importer, String filePath) {
