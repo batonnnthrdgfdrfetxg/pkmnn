@@ -18,7 +18,7 @@ public class PkmnApplication {
             System.out.println("Ссылка на первый файл не найдена.");
         }
         System.out.println("\nимпорт карта:");
-        loadCardFromBinary("src/main/resources/Glastrier.crd");
+        loadCardFromBinary("src/main/resources/Corvisquire.crd");
     }
     private static Card loadCard(CardImport importer, String filePath) {
         Card card = importer.importCards(filePath);

@@ -37,7 +37,9 @@ public class CardImport {
             }
             line = br.readLine();
             if (line != null && !line.isEmpty() && !line.equals("-")) {
-                card.setEvolvesFrom(new Card(line));
+                CardImport cardImport2 = new CardImport();
+                Card card2 = cardImport2.importCards(line);
+                card.setEvolvesFrom(card2);
             }
             line = br.readLine();
             if (line != null && !line.isEmpty()) {
