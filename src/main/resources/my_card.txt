@@ -1,0 +1,12 @@
+STAGE1
+Banette
+100
+PSYCHIC
+src\main\resources\evo.txt
+P / Spooky Shot / 50
+DARK
+-
+C
+119
+F
+Krotov / Mihail / Andreevich / BSBO-05-23

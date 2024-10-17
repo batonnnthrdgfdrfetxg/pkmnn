@@ -1,0 +1,11 @@
+BASIC
+Shuppet
+50
+PSYCHIC
+-
+[Psychic][Colorless] / Frighten / 10, [Psychic][Psychic][Colorless] / Shadow / 20
+DARK
+-
+[Colorless][Colorless]
+078/172
+E
